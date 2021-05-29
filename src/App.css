@@ -1,0 +1,36 @@
+@import './variables.css';
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Titillium+Web:400,700');
+/* @import-normalize; */
+
+:global(body) {
+    font-family: 'Titillium Web', Arial, Sans-Serif;
+    font-size: var(--font-size-base);
+}
+
+body {
+  background: rgba(21, 36, 58, 1);
+  /* background: -webkit-linear-gradient(to right, rgba(131,135,141,1), rgba(131,135,141,.5));
+  background:    -moz-linear-gradient(to right, rgba(131,135,141,1), rgba(131,135,141,.5));
+  background:         linear-gradient(to right, rgba(131,135,141,1), rgba(131,135,141,.5)); */
+}
+
+.container {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 100%;
+    width: 768px;
+
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+}
+
+.reactLogo {
+    height: 48px;
+    vertical-align: middle;
+    width: 48px;
+}
